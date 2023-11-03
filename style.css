@@ -56,14 +56,12 @@ body::-webkit-scrollbar {
     height: 47px;
 }
 
-.nav-link{
+.nav-link-material{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
-.nav-link 
 .nav-inr-link{
     width: 488px;
     float: left;
@@ -75,7 +73,6 @@ body::-webkit-scrollbar {
     
 }
 
-.nav-link 
 .nav-inr-link .nav-item{
     font-size: 16px;
     font-style: normal;
@@ -85,13 +82,11 @@ body::-webkit-scrollbar {
 }
 
 
-.nav-link 
 .login-signup{
     position: absolute;
     right: 220px;
 }
 
-.nav-link 
 .login-signup .nav-lo-sp{
     font-size: 16px;
     font-style: normal;

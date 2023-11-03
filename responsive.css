@@ -11,7 +11,7 @@
      Navbar section
 ===================== */
 
-/* @media (max-width: 1280px){
+@media (max-width: 1280px){
     .nav-container{
         width: 100%;
         height: 51px;
@@ -26,129 +26,18 @@
     .nav-image{
         position: absolute;
         top: 6px;
+        left: 25px;
     }
     
     .nav-image img{
         width: 100px;
         height: 40px;
     }
-    
+
     .nav-link-material{
-        width: 100%;
-        height: 151.91px;
-        position: absolute;
-        top: 51px;
-        left: 0;
-        background-color: #121212;
-        display: flex;
-        justify-content: start;
-        align-items: start;
-        display: none;
-    }
-
-    .active .nav-link-material{
-        display: block;
-        z-index: 10;
-    }
-    
-    
-    .nav-link 
-    .nav-inr-link{
-        width: 100%;
-        display: flex;
-        justify-content: start;
-        flex-direction: column;
-        align-items: start;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    
-    .nav-link 
-    .nav-inr-link .nav-item{
-        width: 100%;
-        padding: 10px 35px;
-        color: #F8F8F9;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        border: 1px solid #272727;
-    }
-    
-    
-    .nav-link 
-    .login-signup{
-        position: absolute;
-        right: 220px;
-    }
-    
-    .nav-link 
-    .login-signup .nav-lo-sp{
-        display: none;      
-    }
-    
-    
-    .download-btn button{
-        width: 120px;
-        height: 30px;
-        font-weight: 10px;
-        color: #121212;
-        font-style: normal;
-        font-weight: 400;
-        border-radius: 20px;
-        background-color: #E9C638;
-        border: none;
-        outline: none;
-        cursor: pointer;
-     }
-    
-    .download-btn{
-        position: absolute;
-        right: 70px;
-        top: 12px;
-     }
-
-     .close-open-icon{
-        display: flex;
-        position: absolute;
-        right: 30px;
-        top: 18px;
-        display: block;
-     }
-
- } */
-
- @media (max-width: 1280px){
-    .nav-container{
-        width: 100%;
-        height: 51px;
-        background: #121212;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         position: relative;
     }
     
-    
-    .nav-image{
-        position: absolute;
-        top: 16px;
-        left: 50px;
-    }
-    
-    .nav-image .reco-first-logo{
-        display: none;
-    }
-
-    /* hide image  */
-    .nav-image .recobee-logo{
-        display: block;
-        position: absolute;
-        top: -15px;
-        left: -15px;
-    }
-
     .nav-link-material{
         width: 100%;
         height: 151.91px;
@@ -167,6 +56,7 @@
         z-index: 10;
     }
     
+    
     .nav-inr-link{
         width: 100%;
         display: flex;
@@ -180,7 +70,7 @@
     
     .nav-inr-link .nav-item{
         width: 100%;
-        padding: 10px 35px;
+        padding: 10px 20px;
         color: #F8F8F9;
         font-size: 16px;
         font-style: normal;
@@ -216,14 +106,14 @@
     
     .download-btn{
         position: absolute;
-        right: 70px;
-        top: 10px;
+        right: 60px;
+        top: 12px;
      }
 
-     .click-button{
+      .click-button{
         display: flex;
         position: absolute;
-        right: 30px;
+        right: 25px;
         top: 20px;
      }
 
