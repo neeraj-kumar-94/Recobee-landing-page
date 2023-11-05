@@ -52,3 +52,6 @@ for (let i = 0; i < ourItemDiv.length; i++) {
     })
 }
 
+
+// accordion click effect
+
