@@ -493,7 +493,6 @@
 .inner-main-container {
    width: 90%;
    height: auto;
-   /* margin: 80px 0; */
    margin-top: 30px;
    margin-bottom: 80px;
    display: flex;
@@ -505,8 +504,6 @@
 .inner-main-container .main-container-details {
    width: 100%;
    height: 100%;
-   margin-right: 10px;
-   margin-bottom: 47.8px;
 }
 
 .main-container-details .main-heading {
@@ -898,7 +895,7 @@
    .inner-main-container .main-container-details {
       width: 100%;
       height: 100%;
-      margin-right: 10px;
+      margin-right: 0;
       margin-bottom: 47.8px;
    }
    
@@ -909,13 +906,13 @@
       word-wrap: break-word;
       color: #F8F8F9;
       font-style: normal;
-      padding: 10px;
+      padding-bottom: 10px;
    }
    
    .main-container-details .main-paragraph p {
       font-size: 14px;
       font-weight: 400;
-      padding: 10px;
+      padding-bottom: 10px;
       line-height: 16px;
       font-style: normal;
       color: #EEE;
@@ -928,7 +925,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 16px 10px;
+      margin: 16px 0;
    }
 
    .main-container-details .link-scanner .two-links-image {
@@ -1024,9 +1021,13 @@
       border: 0.2px solid #616161;
       padding: 10px;
       transition: all .3s linear;
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 0;
       margin-bottom: 25px;
    }
 
+   
 
    .fea-image img{
       width: 48px;               
@@ -1179,6 +1180,7 @@
 
    .accordion-section {
       width: 100%;
+      height: auto;
       background: #121212;
       display: flex;
       justify-content: center;
